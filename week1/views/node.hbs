@@ -1,10 +1,23 @@
-hello
-{{title}}
-{{author}}
-{{details}}
-<form action="/contact" method="POST">
-  Title: <input type="text" name="title">
-  Author: <input ype="text" name="author">
-  Details: <input type="text" name="details">
+<h1>Hello</h1>
+<ul>
+  <li>Title: {{title}}</li>
+  <li>Author: {{author}}</li>
+  <li>Author: {{details}}</li>
+</ul>
+
+<!--Research more about form in HTML. Here is a useful page I suggest: https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/Forms/My_first_HTML_form -->
+<form action="/" method="POST">
+  <div>
+    <label for="titleId">Title: </label>
+    <input type="text" id="titleId" name="title">
+  </div>
+  <div>
+    <label for="authorId">Author: </label>
+    <input ype="text" id="authorId" name="author">
+  </div>
+  <div>
+    <label for="detailsId">Details: </label>
+    <input type="text" id="detailsId" name="details" />
+  </div>
   <button type="submit">Submit</button>
 </form>
