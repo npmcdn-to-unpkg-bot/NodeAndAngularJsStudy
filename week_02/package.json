@@ -38,6 +38,8 @@
     "gulp": "^3.9.1",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-typescript": "^2.13.6",
-    "systemjs-builder": "^0.15.19"
+    "systemjs-builder": "^0.15.19",
+    "mongoose": "^4.5.3",
+    "mongoose-unique-validator": "^1.0.2"
   }
 }
